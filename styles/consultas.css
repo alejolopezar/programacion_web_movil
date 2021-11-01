@@ -1,0 +1,11 @@
+.codigo{
+  background-color: var(--color-5);
+  color: var(--color-4);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.imagen{
+  width: 50%;
+}

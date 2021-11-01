@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Consultas</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/consultas.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="https://github.com/alejolopezar">GitHUB</a></li>
+        <li>
+          <a
+            href="https://www.figma.com/file/ybSyCbhSWS6oQJaIGvUIHa/Untitled?node-id=0%3A1"
+            >CV FIGMA</a
+          >
+        </li>
+        <li><a href="../paginas/hojadevida.html">CV HTML/CSS</a></li>
+        <li><a href="../paginas/sopadeletras.html">Sopa de letras</a></li>
+        <li><a href="../paginas/reto2.html">Reto 2 FrontEnd</a></li>
+        <li><a href="../paginas/ficha.html">Ficha JavaScript</a></li>
+        <li><a href="../paginas/consultas.html">Consultas</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Consultas</h1>
+      <h2>Pregunta, ¿qué hace el siguiente código?</h2>
+      <div class="codigo">
+        &lt;!DOCTYPE html&gt; <br />
+        &lt;html&gt; <br />
+        &lt;body&gt; <br />
+        <br />
+        &lt;h2&gt;JavaScript Array Sort&lt;/h2&gt; <br />
+        &lt;p&gt;The highest number is &lt;span
+        id=&quot;demo&quot;&gt;&lt;/span&gt;.&lt;/p&gt; <br />
+        <br />
+        &lt;script&gt; <br />
+        const points = [4090, 300, 1, 5, 25, 10]; <br />
+        document.getElementById(&quot;demo&quot;).innerHTML =
+        myArrayMax(points); <br />
+        <br />
+        function myArrayMax(arr) { <br />
+        let len = arr.length; <br />
+        let max = -Infinity; <br />
+        while (len--) { <br />
+        if (arr[len] &gt; max) { <br />
+        max = arr[len]; <br />
+        } <br />
+        } <br />
+        return max; <br />
+        } <br />
+        &lt;/script&gt; <br />
+        <br />
+        &lt;/body&gt; <br />
+        &lt;/html&gt; <br />
+      </div>
+      <p>
+        Lo que este código hace es recorrer un arreglo de números y encontrar el
+        mayor, lo hace comparando cada número y si el número comparado es mayor
+        este se convierte en el nuevo mayor. Finalmente envia el mayor numero al
+        elemento con el id 'demo'
+      </p>
+      <h2>Colores HSL Y HSLA</h2>
+      <p>
+        <img class="imagen"
+          src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a90c72b5-56f2-4147-94c7-e4245a5e3dfb/2-hsl-colors-css.jpg"
+          alt=""
+        />
+        <br /><br />
+        HSL significa tono, saturación y luminosidad. Se basa en la rueda de
+        colores RGB. Cada color tiene un ángulo y un valor porcentual para los
+        valores de saturación y luminosidad.
+        <br /><br />
+        La saturación controla qué tan saturado debe estar el color. El 0% está
+        completamente insaturado, mientras que el 100% está completamente
+        saturado.
+        <img class="imagen"
+          src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a318a69f-beac-4eee-950a-45809577a787/5-hsl-colors-css.jpg"
+          alt=""
+        />
+        <br /><br />
+        En cuanto a la claridad, controla qué tan claro u oscuro es el color. 0%
+        es negro y 100% es blanco.
+        <img class="imagen"
+          src="https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ec6dcc48-6d9a-40f6-920e-4cf8db57eec8/6-hsl-colors-css.jpg"
+          alt=""
+          srcset=""
+        />
+      </p>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
